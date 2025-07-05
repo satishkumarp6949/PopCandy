@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../assets/HomePage.css';
 import hom from '../assets/images/home.jpg';
 
@@ -44,16 +45,16 @@ const HomePage = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/shop">Shop</a>
+                <Link className="nav-link" to="/shop">Shop</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about">About Us</a>
+                <Link className="nav-link" to="/about">About Us</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">Contact Us</a>
+                <Link className="nav-link" to="/contact">Contact Us</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/login">Login</a>
+                <Link className="nav-link" to="/login">Login</Link>
               </li>
             </ul>
           </div>

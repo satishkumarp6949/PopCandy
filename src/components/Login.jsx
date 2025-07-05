@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../assets/Login.css';
 
 const Login = () => {
@@ -64,11 +65,11 @@ const Login = () => {
       <div className="col-md-6 mb-4">
         <h5 className="text-uppercase">Quick Links</h5>
         <ul className="list-unstyled">
-          <li><a href="/home" className="text-dark text-decoration-none">Home</a></li>
-          <li><a href="/shop" className="text-dark text-decoration-none">Shop</a></li>
-          <li><a href="/about" className="text-dark text-decoration-none">About Us</a></li>
-          <li><a href="/contact" className="text-dark text-decoration-none">Contact Us</a></li>
-          <li><a href="/login" className="text-dark text-decoration-none">Login</a></li>
+          <li><Link to="/home" className="text-dark text-decoration-none">Home</Link></li>
+          <li><Link to="/shop" className="text-dark text-decoration-none">Shop</Link></li>
+          <li><Link to="/about" className="text-dark text-decoration-none">About Us</Link></li>
+          <li><Link to="/contact" className="text-dark text-decoration-none">Contact Us</Link></li>
+          <li><Link to="/login" className="text-dark text-decoration-none">Login</Link></li>
         </ul>
       </div>
 
