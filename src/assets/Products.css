@@ -1,0 +1,77 @@
+.products-section {
+  background-color: #ffe6f0; /* same soft pink as your hero section */
+  min-height: 100vh;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.text-pink {
+  color: #d63384;
+}
+
+.btn-pink,
+.btn.btn-pink,
+button.btn-pink,
+.btn-pink.btn {
+  background-color: #ff66b2 !important;
+  color: white !important;
+  border: none !important;
+}
+
+.btn-pink:hover,
+.btn.btn-pink:hover,
+button.btn-pink:hover,
+.btn-pink.btn:hover {
+  background-color: #ff3385 !important;
+  color: white !important;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 450px) {
+  .navbar .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+  }
+
+  .products-section {
+    padding: 20px 10px;
+  }
+
+  .card-img-top {
+    height: 160px !important;
+    object-fit: cover;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  .btn-pink {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+  }
+
+  h2.text-pink {
+    font-size: 1.4rem;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
+}
+.footer-pink {
+  background-color: #ffe6f0; /* Soft pink background */
+}
+
+.footer-pink a:hover {
+  color: #ff3399;
+  text-decoration: underline;
+}

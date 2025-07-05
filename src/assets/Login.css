@@ -1,0 +1,33 @@
+.login-section {
+  min-height: 100vh;
+  background-color: #ffe6f0;
+  padding: 60px 20px;
+}
+
+.login-card {
+  border: none;
+  border-radius: 12px;
+}
+
+.btn-pink {
+  background-color: #ff66b2;
+  color: white;
+  border: none;
+}
+
+.btn-pink:hover {
+  background-color: #ff3385;
+  color: white;
+}
+
+.text-pink {
+  color: #d63384;
+}
+.footer-pink {
+  background-color: #ffe6f0; /* Soft pink background */
+}
+
+.footer-pink a:hover {
+  color: #ff3399;
+  text-decoration: underline;
+}

@@ -1,0 +1,44 @@
+ .hero-section {
+    background-color: #ffe6f0;
+ }
+
+.btn.btn-pink,
+button.btn-pink,
+.btn-pink.btn {
+  background-color: #ff66b2 !important;
+  color: white !important;
+  border: none !important;
+}
+
+.btn-pink:hover,
+.btn.btn-pink:hover,
+button.btn-pink:hover,
+.btn-pink.btn:hover {
+  background-color: #ff3385 !important;
+  color: white !important;
+}
+.text-pink { 
+    color: #d63384;
+ }
+
+ .btn-pink {
+  background-color: #ff66b2;
+  color: white;
+  border: none;
+}
+
+.btn-pink:hover {
+  background-color: #ff3385;
+}
+
+.text-pink {
+  color: #d63384;
+}
+.footer-pink {
+  background-color: #ffe6f0; /* Soft pink background */
+}
+
+.footer-pink a:hover {
+  color: #ff3399;
+  text-decoration: underline;
+}
